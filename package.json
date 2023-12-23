@@ -1,6 +1,28 @@
 {
+  "name": "us-visa-appointment",
+  "version": "1.0.0",
+  "description": "This is a small puppeteer script that can be used to find and schedule an earlier US consulate appointment for US Visa in Canada and other countries.",
+  "main": "index.js",
+  "type": "module",
   "dependencies": {
-    "minimist": "^1.2.6",
-    "puppeteer": "^13.5.2"
-  }
+    "@sparticuz/chromium": "^119.0.2",
+    "axios": "^1.6.2",
+    "puppeteer": "^21.5.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sorackb/us-visa-appointment.git"
+  },
+  "keywords": [
+    "usa-visa"
+  ],
+  "author": "daydos",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Sorackb/us-visa-appointment/issues"
+  },
+  "homepage": "https://github.com/Sorackb/us-visa-appointment#readme"
 }
